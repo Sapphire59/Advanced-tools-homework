@@ -110,3 +110,19 @@ p {
 .email-link:hover {
   text-decoration: underline;
 }
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  h2 {
+    font-size: 30px;
+  }
+  .first-page-image {
+    display: none;
+  }
+  .primary-link {
+    display: block;
+    padding: 18px;
+    text-align: center;
+  }
+}
